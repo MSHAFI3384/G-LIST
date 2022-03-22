@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "G LIST",
+    "slug": "grocery-notes",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.mshafi.glist",
+      "buildNumber": "1.0.1",
+      "supportsTablet": true
+    },
+    "android":{
+      "package": "com.mshafi.glist",
+      "versionCode": 3,
+      "permissions":[],
+      "config":{
+        "googleMobileAdsAppId": "ca-app-pub-6683425421860302~5685026625"
+      }
+    }
+  }
+}
